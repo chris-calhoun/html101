@@ -51,12 +51,37 @@ footer {
 }
 
 .card {
-  border: 1px solid blue;
+  border: 1px solid slateblue;
+  border-radius: 5px;
+  border-width: 2px;
   width: 30%;
   float: left;
   margin: 5px;
+  padding: 2px;
+}
+
+.people-card {
+  border: 1px solid slateblue;
+  /* border-radius: 5px; */
+  border-width: 0.2px;
+  width: 30%;
+  float: left;
+  margin: 5px;
+  padding: 3px;
+  background-color: whitesmoke;
+}
+.people-card img {
+  width: 100%;
+}
+
+.people-card h2 {
+  text-align: center;
 }
 
 .card img {
-  height: 100px;
+  width: 100%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
